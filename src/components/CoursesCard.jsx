@@ -49,7 +49,7 @@ const CoursesCardIndex = () => {
   return (
     <>
         <h1 className="text-center sm:text-4xl text-2xl font-bold my-4 sm:my-12">Online Courses</h1>
-        <div className="block sm:flex sm:justify-center">
+        <div className="block sm:flex sm:flex-wrap sm:justify-center">
             <CoursesCard img={image1} />
             <CoursesCard img={image2} />
             <CoursesCard img={image3} />
