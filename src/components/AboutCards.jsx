@@ -7,7 +7,7 @@ import image4 from './media/image4.png'
 
 const AboutCards = (props) => {
     return (
-        <div className={`${props.bg} rounded-md flex flex-col items-center justify-center sm:w-72 py-7 m-3`}>
+        <div className={`${props.bg} rounded-md flex flex-col items-center justify-center sm:w-[270px] h-[270px] m-5`}>
             <img className='h-20' src={props.img} alt="img" />
             <p className='text-[#413960] text-xl font-medium mt-3'>{props.title}</p>
             <p className='text-[#585859] text-base'>Learn Anythings</p>
