@@ -10,11 +10,7 @@ const CoursesCard = (props) => {
       <div className="bg-white sm:w-[370px] rounded-xl shadow-lg m-5">
             <img className="rounded-t-lg p-5" src={props.img} alt="" />
         <div className="px-5 pb-5">
-          <p>
-            <h5 className="mb-2 text-2xl font-medium text-[#413960]">
-                Modern Psychology
-            </h5>
-          </p>
+          <h5 className="mb-2 text-2xl font-medium text-[#413960]">Modern Psychology</h5>
           <p className="mb-3 font-normal text-gray-700">
             Designation
           </p>
