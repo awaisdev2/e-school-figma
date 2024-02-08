@@ -1,6 +1,13 @@
 .footer-link {
     width: 250px !important;
 }
+button {
+    transition: all 0.3s ease-in-out;
+}
+button:hover {
+    background-color: #16784c;
+    transform: scale(1.1);
+}
 @media (max-width: 768px) {
     .footer-link {
         width: 120px !important;
