@@ -10,6 +10,7 @@ const CoursesCard = (props) => {
     <Atropos
       rotateX={45}
       rotateY={45}
+      shadowScale={0.9}
     >
       <div className="bg-white sm:w-[370px] rounded-xl shadow-lg m-5">
             <img className="rounded-t-lg p-5" src={props.img} alt="" />
