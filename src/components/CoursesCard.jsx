@@ -7,11 +7,7 @@ import image3 from './media/image7.png'
 
 const CoursesCard = (props) => {
   return (
-    <Atropos
-      rotateX={45}
-      rotateY={45}
-      shadowScale={0.9}
-    >
+    <Atropos shadowScale={0.9}>
       <div className="bg-white sm:w-[370px] rounded-xl shadow-lg m-5">
             <img className="rounded-t-lg p-5" src={props.img} alt="" />
         <div className="px-5 pb-5">

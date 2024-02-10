@@ -8,7 +8,7 @@ import image4 from "./media/image4.png";
 
 const AboutCards = (props) => {
   return (
-    <Atropos rotateX={45} rotateY={45} shadowScale={0.9}>
+    <Atropos shadowScale={0.9}>
       <div
         className={`${props.bg} rounded-md flex flex-col items-center justify-center sm:w-[270px] h-[270px] m-5`}
       >
